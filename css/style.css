@@ -1,0 +1,43 @@
+#page_header {
+    background-color: aqua;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    align-items: center;
+}
+
+#page_main {
+    background-color: rgb(214, 196, 231);
+    height: 70vh;
+}
+
+#page_footer {
+    background-color: bisque;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#coffee_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+#coffee_image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#coffee_title {
+    font-size: 4rem;
+}
+
+#coffee_content {
+    font-size: 1.2rem;
+}
